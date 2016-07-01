@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "aliyun oss stream upload",
   "main": "lib/index.js",
   "scripts": {
@@ -21,6 +21,5 @@
     "url": "https://github.com/lzdnku307/aliyun-oss-stream/issues"
   },
   "homepage": "https://github.com/lzdnku307/aliyun-oss-stream/blob/master/README.md",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
