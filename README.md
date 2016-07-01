@@ -15,9 +15,10 @@ var oss = new ALY.OSS({
 });
 var upload = require('aliyun-oss-stream');
 upload({
-	oss: oss,
-	Bucket: '阿里云Bucket',
-	Key: '保存的文件路径',
+	stream: st, //流,必需
+	oss: oss,	//必需
+	Bucket: '阿里云Bucket',	//必需
+	Key: '保存的文件路径',   //必需
 	partSize: 5 * 1024 * 1024,  //每次上传包的大小，byte，可选，默认5MB(5*1024*1024)
 	maxTryNum: 3		//包最多尝试上传次数,可选，默认为3次
 }, function(err, result) {
