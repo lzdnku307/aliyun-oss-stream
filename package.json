@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/lzdnku307/aliyun-oss-stream/issues"
   },
-  "homepage": "https://github.com/lzdnku307/aliyun-oss-stream#readme",
+  "homepage": "https://github.com/lzdnku307/aliyun-oss-stream/blob/master/README.md",
   "dependencies": {
   }
 }
