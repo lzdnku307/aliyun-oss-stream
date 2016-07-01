@@ -22,6 +22,5 @@
   },
   "homepage": "https://github.com/lzdnku307/aliyun-oss-stream#readme",
   "dependencies": {
-    "aliyun-oss": "^1.1.0"
   }
 }
